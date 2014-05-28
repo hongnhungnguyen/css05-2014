@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: medium none;
+}
+
+body {
+    background: url("image/background.jpg") no-repeat fixed center top #000000;
+    font-family: Tahoma, Arial, serif;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #333333;
+}
+
+.header {
+
+    margin: 0 auto;
+    height: 72px;
+    background: url("image/header.PNG") repeat-x fixed;
+}
+
+.top-header {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    height: 32px;
+    line-height: 1.4px;
+
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.logo img {
+    width: 150px;
+    height: 39px;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    top: 1px;
+}
+
+.search {
+    position: absolute;
+    top: 8px;
+    left: 145px;
+    height: 25px;
+}
+
+.search p {
+    float: left;
+    border: solid #5a5a5a;
+    border-width: 0 1px 1px;
+    border-radius: 3px; /* bo vien */
+    background-color: #000000;
+
+    overflow: hidden;
+}
+
+.search p a img {
+    border-width: 0 1px 1px;
+    border-radius: 2px 0 0 2px;
+
+}
+
+.btn-search {
+    float: right;
+    width: 35px;
+    height: 29px;
+}
+
+.btn-search a:hover {
+    cursor: pointer;
+}
+
+.tb-search {
+    border: 0 none;
+    border-radius: 2px 0 0 2px;
+    color: #5C5C5C;
+    padding: 0 10px;
+    width: 325px;
+}
+
+.tag {
+    position: absolute;
+    left: 560px;
+    bottom: 1px;
+    overflow: hidden;
+    width: 216px;
+}
+
+li {
+    list-style: none;
+}
+
+.tag-page li {
+    display: block;
+    float: left;
+    padding: 9px 10px 11px;
+}
+
+.tag-page li a {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tag-page a:hover {
+    text-decoration: underline;
+}
+
+li.selected span {
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    display: block;
+}
+
+strong {
+    border-left: 1px solid #606060;
+    border-right: 1px solid #606060;
+    padding: 9px 8px 12px;
+}
+
+.login {
+    position: absolute;
+    right: 0;
+    bottom: 13px;
+    padding: 10px 10px 0 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.login a {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.login a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bottom-header {
+    position: relative;
+    margin: 0 auto;
+    width: 980px;
+
+}
+
+#home {
+    position: absolute;
+    overflow: hidden;
+    top: 14px;
+
+}
+
+.bottom-header ul {
+    padding-left: 32px;
+}
+
+.bottom-header ul li {
+
+    list-style: none;
+    display: block;
+    float: left;
+    color: #ffffff;
+    padding: 1px 12px 6px;
+    overflow: hidden;
+    height: 40px;
+    line-height: 46px;
+}
+
+.bottom-header li a {
+    color: #333333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#store {
+    position: absolute;
+    top: 6px;
+    left: 460px;
+}
+
+.menu-line {
+
+    border-left: 1px solid #CCCCCC;
+    height: 20px !important;
+    margin: 14px 8px 5px;
+
+    padding: 0 !important;
+}
+
+.upload a {
+    position: absolute;
+    top: 9px;
+    right: 0;
+
+    padding: 0 0 4px 15px;
+    width: 120px;
+    height: 25px;
+    color: #ffffff;
+}
+
+.none {
+    display: none !important;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.nav {
+    clear: both;
+    text-align: center;
+    width: auto;
+    height: auto;
+
+}
+
+.content {
+    background-color: #ffffff;
+    margin-top: 5px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+}
+
+.top-content {
+    box-shadow: 0 0 5px #DFDFDF;
+    float: none;
+
+    width: 958px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+
+.top-content a {
+    display: inline;
+    height: 30px;
+    line-height: 35px;
+    padding-left: 5px;
+    color: #17658C;
+    outline: 0 none;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+a:hover {
+    cursor: pointer;
+
+}
+
+.top-content a:hover {
+    text-decoration: underline;
+}
+
+.top-content a img {
+    position: relative;
+    top: 2px;
+}
+
+.left-main-content {
+    border-top: 0 none;
+    float: left;
+    width: 128px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px #DFDFDF;
+}
+
+.topic {
+    position: relative;
+    padding-bottom: 5px;
+
+}
+
+.title {
+    background: url("image/topic-bg.PNG") repeat;
+    height: 21px;
+    padding: 5px 0 5px 5px;
+    box-shadow: 0 0 5px #DFDFDF;
+    display: block;
+    line-height: 21px;
+}
+
+.title img {
+    position: absolute;
+    left: 12px;
+}
+
+.title h3 {
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.topic ul {
+    padding: 0 10px;
+}
+
+.topic ul li {
+    padding: 3px 0;
+
+}
+
+.top-song {
+    position: relative;
+}
+
+.topic ul li a {
+    color: #17658C;
+    outline: 0 none;
+    text-decoration: none;
+}
+
+.topic ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.topic ul li a img {
+    position: absolute;
+    top: 33px;
+    left: 90px;
+}
+
+.middle-content {
+    float: left;
+    margin-left: 10px;
+    width: 510px;
+
+}
+
+.slide-img {
+    background: none repeat scroll 0 0 #ffffff;
+    border: medium none;
+    float: left;
+    height: 200px;
+    position: relative;
+    width: 330px;
+}
+
+#slide-name {
+    display: block;
+    float: right;
+    height: 200px;
+    width: 180px;
+}
+
+.bg-purple {
+    background: url("image/bg-tim.PNG") repeat;
+    height: 30px;
+    padding: 10px 25px;
+}
+
+.bg-white li a {
+    font-weight: bold;
+    color: #555555;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#slide-name ul li a:hover {
+    cursor: pointer;
+}
+
+.bg-white a span {
+    color: #888888;
+    display: block;
+    font-weight: normal;
+}
+
+#slide-name ul li span:hover {
+    cursor: pointer;
+}
+
+.bg-purple a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.bg-purple span {
+    color: #C0ADCD !important;
+    display: block;
+    font-weight: normal;
+}
+
+.bg-white {
+    background: url("image/bg-white.PNG") repeat;
+    height: 30px;
+    padding: 10px 25px;
+}
+
+#slide-name ul li a:hover {
+    cursor: pointer;
+}
+
+#slide-name ul li span {
+    color: #888888;
+    display: block;
+    font-weight: normal;
+}
+
+#slide-name ul li span:hover {
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+
+.album {
+    clear: both;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.title-hot:before {
+    background-color: #019CDC;
+    border-right: 1px solid #FAFAFA;
+    height: 31px;
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 10px;
+}
+
+.title-hot {
+    background: url("image/hot-bg.PNG") repeat;
+    border-left: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+    height: 31px;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.4;
+}
+
+.title-hot a {
+    color: #17658C;
+    outline: 0 none;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.title-hot a:hover {
+    text-decoration: underline;
+}
+
+.song {
+    display: block;
+    float: left;
+    height: 165px;
+    margin: 0 7px 5px 0;
+    position: relative;
+    width: 165px;
+
+}
+
+.song img {
+    border: 0 none;
+
+}
+
+.song img:hover {
+    cursor: pointer;
+}
+.album .song-name{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 0px, rgba(0, 0, 0, 0.75) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    position: absolute;
+}
+.song-name {
+
+    bottom: 0;
+    height: 30px;
+
+    left: 0;
+    padding: 5px 10px 10px;
+    width: 145px;
+}
+
+.song-name h3 a {
+    color: #ffffff;
+}
+
+.song-name h3 a:hover {
+    text-decoration: underline;
+
+}
+
+.song-name span a {
+    color: #D2D1CF;
+    font-size: 11px !important;
+}
+
+.song-name span a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.line{
+    margin-right: 0 !important;
+}
+.video .song {
+    float: left;
+    margin: 0 54px 8px 0 ;
+    overflow: hidden;
+    width: 134px;
+
+}
+.video .song img{
+
+    height: 72px;
+    padding: 3px 0 0 3px;
+    width: 131px;
+}
+.video .song-name{
+    background: #ffffff repeat scroll ;
+    margin-top: 5px !important;
+
+}
+.video .song-name h3 a{
+    font-size: 11px;
+    color : #17658C;
+    outline: 0 none;
+    text-decoration: none;
+}
+.video .song-name span a{
+    font-size: 11px !important;
+    color: #555555;
+    outline: 0 none;
+    text-decoration: none;
+}
+
+.right-main-content {
+    float: right;
+    width: 300px;
+}

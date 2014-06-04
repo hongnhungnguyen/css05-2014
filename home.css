@@ -11,205 +11,155 @@ body {
     line-height: 1.4;
     color: #333333;
 }
+ul li{
+    list-style: none;
+}
 
 /*----------------------------------------------------------- HEADER----------------------------------------------------------------------------------*/
 .header {
-
-    margin: 0 auto;
-    height: 72px;
-    background: url("image/header.PNG") repeat-x fixed;
+    background: url("image/header.PNG") repeat-x ;
+    margin-bottom: 5px;
 }
-
-.top-header {
-    position: relative;
-    width: 980px;
-    margin: 0 auto;
-    height: 32px;
-    line-height: 1.4px;
-
+.header a{
+    font-weight: bold;
+    outline: 0 none;
+    text-decoration: none;
 }
-
 a:hover {
     cursor: pointer;
+    text-decoration: underline;
 }
-
-.logo img {
-    width: 145px;
-    height: 39px;
-    cursor: pointer;
-    overflow: hidden;
-    position: absolute;
-    top: 1px;
+.main-header{
+    margin: 0 auto;
+    width: 980px;
 }
-
-.search {
-    position: absolute;
-    top: 7px;
-    left: 145px;
-    height: 25px;
-}
-
-.search p {
+.logo a{
+    display: block;
     float: left;
-    border: solid #5a5a5a;
-    border-width: 0 1px 1px;
-    border-radius: 3px; /* bo vien */
+    height: 34px;
+    margin: 0 0 5px;
+    border: 0 none;
+}
+.search{
+    position: relative;
+}
+.search p{
     background-color: #000000;
-
+    border-image: none;
+    border-radius: 3px;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    float: left;
+    margin-top: 5px;
     overflow: hidden;
+    padding: 1px;
 }
-
-.search p a img {
-    border-width: 0 ;
-    border-radius: 2px 0 0 2px;
-
-}
-
-.btn-search {
-    float: right;
-    width: 32px;
-    height: 27px;
-}
-
-.btn-search a:hover {
-    cursor: pointer;
-}
-
-.tb-search {
+.tb-search{
     border: 0 none;
     border-radius: 2px 0 0 2px;
     color: #5C5C5C;
+    display: block;
+    float: left;
+    height: 26px;
+    line-height: 26px;
     padding: 0 10px;
     width: 325px;
 }
-
-.tag {
-    position: absolute;
-    left: 555px;
-    bottom: 1px;
+.btn-search{
+    background: url("image/search.PNG") no-repeat;
+    float: right;
+    height: 26px;
+    width: 32px;
+    border: 0 none;
     overflow: hidden;
-    width: 216px;
 }
-
-
-
-strong {
-    border-left: 1px solid #606060;
-    border-right: 1px solid #606060;
-    padding: 9px 8px 12px;
-
-}
-
-
-li {
-    list-style: none;
-}
-
-.tag-page li {
-    display: block;
+.tag {
     float: left;
-    padding: 9px 7px 11px;
+    overflow: hidden;
+    padding-left: 25px;
+    position: relative;
+}
+.tag li{
+    float: left;
+    padding: 9px 12px 11px;
+    list-style: none;
 
 }
-
-.tag-page li a {
-    font-weight: bold;
+.tag li a{
     color: #ffffff;
     font-size: 13px;
 }
+.mp3{
+    background: url("image/mp3.PNG")repeat;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    padding-left:10px !important;
+    padding-right:10px !important;
+    display: block;
 
-a {
-    text-decoration: none;
-}
-
-.tag-page a:hover {
-    text-decoration: underline;
-}
-.tv{
-    margin-left: 10px;
 }
 
 .login {
-    position: absolute;
-    right: 0;
-    bottom: 13px;
+    float: right;
     padding: 10px 10px 0 0;
+    color: #FFFFFF;
     font-weight: bold;
-    color: #ffffff;
 }
+.login a{
+    color: #FFFFFF;
 
-.login a {
-    color: #ffffff;
-    cursor: pointer;
 }
-
-.login a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.bottom-header {
+.bottom-header{
+    clear: both;
+    height: 32px;
     position: relative;
-    margin: 0 auto;
-    width: 980px;
-
 }
-
-#home {
-    position: absolute;
-    overflow: hidden;
-    top: 14px;
-
-}
-
-.bottom-header ul {
-    padding-left: 30px;
-}
-
-.bottom-header ul li {
-
-    list-style: none;
-    display: block;
+#home{
     float: left;
-    color: #ffffff;
-    padding: 1px 11px 6px;
-    overflow: hidden;
-    height: 40px;
-    line-height: 46px;
+    height: 32px;
+    width: 30px;
+    margin-top: 6px;
+}
+.bottom-header ul li{
+    height: 32px;
+    list-style: none;
+    float: left;
+    line-height: 32px;
+    padding: 0 11px;
+}
+.bottom-header ul li a{
+    color: #474747;
+}
+.bottom-header ul li a:hover{
+    text-decoration: none;
+
 }
 
-.bottom-header li a {
-    color: #333333;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-#store {
-    position: absolute;
-    top: 8px;
-    left: 464px;
-}
-
-.menu-line {
-
+.menu-line{
     border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #FFFFFF;
     height: 20px !important;
-    margin: 14px 10px 5px;
+    margin: 7px 10px 0;
 
     padding: 0 !important;
 }
-
-.upload a {
-    position: absolute;
-    top: 9px;
-    right: 0;
+#store{
+    height: 32px;
+    padding-left: 12px;
+    margin-top: 5px;
     overflow: hidden;
 
-    padding: 0 0 4px 15px;
-    width: 110px;
-    height: 25px;
-    color: #ffffff;
 }
+.upload{
+    display: block;
+      overflow: hidden;
+    position: absolute;
+    right: 4px;
+    top: 1px;
+    width: 95px;
+}
+
+
 
 .none {
     display: none !important;
@@ -244,18 +194,19 @@ a {
 .top-content {
     box-shadow: 0 0 5px #DFDFDF;
     float: none;
-
+    border: 1px solid #CCCCCC;
     width: 958px;
     margin: 0 auto;
     margin-bottom: 10px;
+    height: 30px;
 
 }
 
 .top-content a {
     display: inline;
-    height: 30px;
-    line-height: 35px;
-    padding-left: 5px;
+
+    line-height: 30px;
+    padding-left: 7px;
     color: #17658C;
     outline: 0 none;
     text-decoration: none;
@@ -274,7 +225,8 @@ a:hover {
 
 .top-content a img {
     position: relative;
-    top: 2px;
+    top: 1px;
+    margin-right: 2px;
 }
 
 /*----------------------------------------------------MAIN CONTENT----------------------------------------------------------------------*/
@@ -290,13 +242,18 @@ a:hover {
 .topic {
     position: relative;
     padding-bottom: 5px;
+    border: 1px solid #CCCCCC;
 
+}
+.topic a{
+    font-weight: normal;
 }
 
 .title {
     background: url("image/topic-bg.PNG") repeat;
     height: 21px;
     padding: 5px 0 5px 5px;
+    margin-bottom: 5px;
     box-shadow: 0 0 5px #DFDFDF;
     display: block;
     line-height: 21px;
@@ -309,7 +266,7 @@ a:hover {
 
 .title h3 {
     padding-left: 30px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .topic ul {
@@ -338,8 +295,11 @@ a:hover {
 
 .topic ul li a img {
     position: absolute;
-    top: 33px;
-    left: 90px;
+    top: 42px;
+    left: 91px;
+}
+.second h3 {
+    color: #17658C;
 }
 
 /*-----------------------------------------MIDDLE CONTENT-----------------------------------------------------------*/
@@ -347,7 +307,6 @@ a:hover {
     float: left;
     margin-left: 10px;
     width: 510px;
-
 }
 
 /*------------------------------SLIDE---------------------------------------------------*/
@@ -558,7 +517,7 @@ a:hover {
 
 .video .song-name {
     background: #ffffff repeat scroll;
-    margin-top: 5px !important;
+    margin-top:0 !important;
 
 }
 
@@ -574,6 +533,11 @@ a:hover {
     color: #555555;
     outline: 0 none;
     text-decoration: none;
+    font-weight: normal;
+}
+
+.video .song-name a:hover{
+text-decoration: underline;
 }
 
 /*------------------------------------NEWS---------------------------------------------*/
@@ -603,7 +567,9 @@ a:hover {
     outline: 0 none;
     text-decoration: none;
 }
-
+.new-list a{
+    font-weight: normal;
+}
 .new .song-new p {
     margin: 5px 0 0 165px;
 }
@@ -660,12 +626,14 @@ a:hover {
 .special-song-item p {
     font-size: 11px !important;
     color: #808080;
+
 }
 
 .special-song-item p a {
     color: #17658C;
     outline: 0 none;
     text-decoration: none;
+    font-weight: normal;
 }
 
 .button {
@@ -769,13 +737,13 @@ a:hover {
 
 .download .abc {
     float: left;
-    margin: 14px 15px 0 10px;
+    margin: 12px 15px 0 10px;
 }
 
 .download .phone {
     display: inline-block;
     height: 26px;
-    margin: 7px 0 0 12px;
+    margin: 7px 0 0 10px;
     width: 35px;
 }
 
@@ -866,6 +834,9 @@ a:hover {
     font-weight: bold;
 
 }
+.tab-song-list-item span a{
+    font-weight: normal;
+}
 
 .tab-song-list-item .tim {
     background-color: #A16EB1
@@ -907,7 +878,9 @@ a:hover {
     z-index: 20;
     position: absolute;
     text-decoration: none;
+    font-weight: normal !important;
 }
+
 
 .read-more:hover {
     text-decoration: underline;
@@ -949,6 +922,9 @@ a:hover {
     padding: 10px 0;
     position: relative;
 }
+.footer ul li{
+    list-style: none;
+}
 
 .footer-info {
     border-bottom: 5px solid #F5F5F5;
@@ -966,7 +942,9 @@ a:hover {
     font-size: 11px !important;
     position: relative;
 }
-
+.footer-info-note a{
+    font-weight: normal;
+}
 .img-footer {
     position: absolute;
     top: 0;
@@ -1037,6 +1015,9 @@ a:hover {
     color: #ffffff;
     font-size: 12px;
 }
+.feedback a{
+    font-weight: normal;
+}
 
 .feedback img {
     display: block;
@@ -1064,7 +1045,7 @@ a:hover {
     padding-left: 4px;
 }
 .zme-like {
-   height: 68px;
+   height: 67px;
     width: 44px;
     bottom: 400px;
 }
@@ -1078,7 +1059,7 @@ a:hover {
 
 }
 #like{
-    margin-top: 3px;
+    margin-top: 2px;
     width: 46px;
-    height : 21px;
+    height : 22px;
 }

@@ -33,7 +33,7 @@ a:hover {
 /*----------------------------------------------------------- HEADER----------------------------------------------------------------------------------*/
 .header {
     background: url("image/header.PNG") repeat-x;
-    margin-bottom: 5px;
+    margin-bottom: 0 ;
 }
 
 .header a {
@@ -193,7 +193,12 @@ a:hover {
     top: 1px;
     width: 95px;
 }
-
+#menu4{
+    background-color: #FFFFFF;
+    border-left: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+    padding: 0 10px !important;
+}
 .none {
     display: none !important;
 }
@@ -215,12 +220,14 @@ a {
 
 /*------------------------------------------------------NAV---------------------------------------------------------------------------*/
 .nav {
-    clear: both;
+
     text-align: center;
     width: auto;
     height: auto;
 
+
 }
+
 
 /*------------------------------------------------------CONTENT------------------------------------------------------------------------*/
 .content {
@@ -305,6 +312,14 @@ a {
     text-align: center;
 
     width: 35px;
+}
+
+.tr1 .top-rank {
+    background: url("image/top-rank-bg2.PNG") no-repeat;
+}
+
+.tr2 .top-rank {
+    background: url("image/top-rank-bg3.PNG") no-repeat;
 }
 
 .title-name {
@@ -394,9 +409,22 @@ a {
     border: 0 none;
     margin: 0;
 }
+
 .last-bxh {
     margin: 0;
 }
+
+.video .bxh-list img {
+    height: 50px !important;
+    width: 80px !important;
+}
+
+.video .list-name {
+    position: absolute;
+    left: 140px;
+    top: 2px;
+}
+
 /*-----------------------------------------FOOTER-----------------------------------------------------------*/
 .footer {
     background-color: #FFFFFF;

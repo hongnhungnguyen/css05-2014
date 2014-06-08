@@ -461,8 +461,9 @@ a {
 .b3 img{
     width: 51px !important;
     height: 52px !important;
-    margin-bottom: 7px !important;
-    padding-left: 6px !important;
+    padding-bottom: 1px;
+    margin-bottom: 8px !important;
+    padding-left: 7px !important;
 }
 .download-free .box .btn-tab {
     float: none;
@@ -479,7 +480,7 @@ a {
     font-weight: bold;
     height: 18px;
     overflow: hidden;
-    padding: 3px 10px;
+    padding: 4px 10px 2px;
     text-decoration: none;
 }
 
@@ -498,7 +499,7 @@ a {
     font-weight: bold;
     height: 18px;
     overflow: hidden;
-    padding: 3px 10px;
+    padding: 4px 10px 2px;
 }
 
 .download-free .b2 {
@@ -507,8 +508,8 @@ a {
 }
 
 .lyric {
-    background-color: #FFFAE6;
-    background-position: left -446px;
+    /*background-color: #FFFAE6;*/
+    background: url("image/lyric.PNG") no-repeat;
     padding-top: 24px;
     position: relative;
     clear: both;
@@ -571,7 +572,7 @@ a {
 #a144 {
     position: absolute;
     right: 30px;
-    top: 58px;
+    top: 57px;
 }
 
 .lyric-info h3 {
@@ -628,8 +629,8 @@ a {
 }
 
 .view-all {
-    background-color: #FFF8D1;
-    border-top: 1px solid #F0E5B4;
+    /*background-color: #FFF8D1;
+    border-top: 1px solid #F0E5B4;*/
     overflow: hidden;
     padding: 8px 25px;
 }
@@ -857,6 +858,7 @@ a {
     background-image: url("image/paging-disable.PNG");
     color: #FFFFFF;
 }
+
 /*-------------------------------------RIGHT  CONTENT-----------------------------------------------------------*/
 .right-content {
     float: right;
